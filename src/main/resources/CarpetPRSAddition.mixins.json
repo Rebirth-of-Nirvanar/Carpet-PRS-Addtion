@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "CarpetPRSAddition.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "carpet.CarpetServerMixin",
+    "carpet.utils.SettingsManagerMixin",
+    "net.minecraft.entity.ai.brain.task.FarmerVillagerTaskMixin",
+    "net.minecraft.entity.boss.WitherEntityMixin",
+    "net.minecraft.entity.boss.dragon.EnderDragonEntityMixin",
+    "net.minecraft.entity.mob.CreeperEntityMixin",
+    "net.minecraft.entity.mob.EndermanEntityPickUpBlockGoalMixin",
+    "net.minecraft.entity.mob.EndermanEntityPlaceBlockGoalMixin",
+    "net.minecraft.entity.mob.EvokerEntityWololoGoalMixin",
+    "net.minecraft.entity.mob.PiglinEntityMixin",
+    "net.minecraft.entity.mob.RavagerEntityMixin",
+    "net.minecraft.entity.mob.SilverfishEntityCallForHelpGoalMixin",
+    "net.minecraft.entity.mob.SilverfishEntityWanderAndInfestGoalMixin",
+    "net.minecraft.entity.passive.FoxEntityEatSweetBerriesGoalMixin",
+    "net.minecraft.entity.passive.RabbitEntityEatCarrotCropGoalMixin",
+    "net.minecraft.entity.passive.SnowGolemEntityMixin",
+    "net.minecraft.entity.projectile.FireballEntityMixin",
+    "net.minecraft.entity.projectile.SmallFireballEntityMixin",
+    "net.minecraft.entity.projectile.WitherSkullEntityMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

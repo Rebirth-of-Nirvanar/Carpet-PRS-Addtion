@@ -1,0 +1,62 @@
+{
+  "category.PRS": "涅槃附属",
+  "category.mobGriefing": "生物破坏",
+
+  "rule.mobGriefingOverride.name": "生物破坏覆写",
+  "rule.mobGriefingOverride.desc": "当启用此选项游戏规则 mobgriefing 将失效.",
+
+  "rule.mobGriefingFarmerVillagerShouldRun.name": "村民耕作",
+  "rule.mobGriefingFarmerVillagerShouldRun.desc": "职业为农夫的村民是否进行耕作.",
+
+  "rule.mobGriefingWitherCreateExplosion.name": "凋零爆炸控制",
+  "rule.mobGriefingWitherCreateExplosion.desc": "凋零生成后发生地爆炸是否破坏地形.",
+
+  "rule.mobGriefingWitherCanDestroy.name": "凋零方块破坏控制",
+  "rule.mobGriefingWitherCanDestroy.desc": "凋零受到伤害时是否破坏方块.",
+  "rule.mobGriefingWitherCanDestroy.extra.0": "仅当游戏规则 mobgriefing 为 true 时生效.",
+
+  "rule.mobGriefingEnderDragonDestroyBlocks.name": "末影龙方块破坏控制",
+  "rule.mobGriefingEnderDragonDestroyBlocks.desc": "末影龙是否破坏途径的方块.",
+
+  "rule.mobGriefingCreeperCreateExplosion.name": "苦力怕爆炸控制",
+  "rule.mobGriefingCreeperCreateExplosion.desc": "苦力怕发生地爆炸是否破坏地形.",
+
+  "rule.mobGriefingEnderManPickUpBlock.name": "末影人拾取方块控制",
+  "rule.mobGriefingEnderManPickUpBlock.desc": "末影人是否能够拾取方块.",
+
+  "rule.mobGriefingEnderManPlaceBlock.name": "末影人放置方块控制",
+  "rule.mobGriefingEnderManPlaceBlock.desc": "末影人是否能够放置方块.",
+
+  "rule.mobGriefingEvokerWololo.name": "唤魔者的魔法",
+  "rule.mobGriefingEvokerWololo.desc": "唤魔者是否能改变周围羊毛的颜色.",
+
+  "rule.mobGriefingPiglinGather.name": "猪灵拾取",
+  "rule.mobGriefingPiglinGather.desc": "猪灵是否能够拾取物品.",
+
+  "rule.mobGriefingRavagerBreakBlocks.name": "劫掠兽破坏",
+  "rule.mobGriefingRavagerBreakBlocks.desc": "劫掠兽是否能够破坏方块.",
+
+  "rule.mobGriefingSilverfishInfectStones.name": "蠹虫感染",
+  "rule.mobGriefingSilverfishInfectStones.desc": "蠹虫是否能够感染石头类方块.",
+
+  "rule.mobGriefingSilverfishOutOfBlocks.name": "蠹虫破壳",
+  "rule.mobGriefingSilverfishOutOfBlocks.desc": "蠹虫是否能够从虫蛀方块中脱离.",
+
+  "rule.mobGriefingFoxEatSweetBerries.name": "狐狸摘浆果",
+  "rule.mobGriefingFoxEatSweetBerries.desc": "狐狸是否能够摘取甜浆果.",
+
+  "rule.mobGriefingRabbitEatCarrotCrop.name": "兔子吃胡萝卜",
+  "rule.mobGriefingRabbitEatCarrotCrop.desc": "兔子是否能够吃胡萝卜.",
+
+  "rule.mobGriefingSnowGolemSpawnSnow.name": "雪傀儡产雪",
+  "rule.mobGriefingSnowGolemSpawnSnow.desc": "雪傀儡是否能够在移动时产生雪片.",
+
+  "rule.mobGriefingFireballCreateExplosion.name": "火球爆炸",
+  "rule.mobGriefingFireballCreateExplosion.desc": "火球是否能够在穿越方块时产生爆炸.",
+
+  "rule.mobGriefingSmallFireballSpawnFire.name": "小火球引燃",
+  "rule.mobGriefingSmallFireballSpawnFire.desc": "小火球是否能够在接触方块时时产生火焰.",
+
+  "rule.mobGriefingWitherSkullCreateExplosion.name": "凋零之首爆炸",
+  "rule.mobGriefingWitherSkullCreateExplosion.desc": "凋零之首是否产生爆炸."
+}

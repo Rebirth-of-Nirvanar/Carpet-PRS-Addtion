@@ -1,0 +1,43 @@
+{
+  "accessWidener" : "CarpetPRSAddition.accesswidener",
+  "schemaVersion": 1,
+  "id": "carpet-prs-addition",
+  "version": "1.0.0",
+
+  "name": "CarpetPRSAddition",
+  "description": "CarpetPRSAddition",
+  "authors": [
+    {
+      "name": "Hendrix_Shen",
+      "contact": {
+        "homepage": "https://github.com/Hendrix-Shen"
+      }
+    }
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/Rebirth-of-Nirvanar",
+    "issues": "https://github.com/Rebirth-of-Nirvanar/Carpet-PRS-Addition/issues",
+    "sources": "https://github.com/Rebirth-of-Nirvanar/Carpet-PRS-Addition"
+  },
+
+  "license": "GLP-v3",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "CarpetPRSAddition.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.16.x",
+    "fabricloader": ">=0.9.0",
+    "carpet": ">=1.4.19"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
