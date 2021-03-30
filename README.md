@@ -4,6 +4,9 @@
 
 ## 新增的功能
 
+### 实体运算
+- [凋零运算](#凋零运算-disableWitherTicking)
+
 ### 生物破坏
 - [生物破坏覆写](#生物破坏覆写-mobGriefingOverride)
 - [村民耕作](#村民耕作-mobGriefingFarmerVillagerShouldRun)
@@ -27,6 +30,15 @@
 
 ## 列表
 
+### 凋零运算 (disableWitherTicking)
+
+禁止凋零实体运算来避免卡顿, 可能对伪和平有帮助.
+
+- 类型: `boolean`
+- 默认值: `false`
+- 参考选项: `true`, `false`
+- 分类: `PRS`, `ENTITYTICKING`
+
 ### 生物破坏覆写 (mobGriefingOverride)
 
 当启用此选项游戏规则 `mobgriefing` 将失效.
@@ -34,7 +46,16 @@
 - 类型: `boolean`
 - 默认值: `false`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
+
+### 生物破坏覆写 (mobGriefingOverride)
+
+当启用此选项游戏规则 `mobgriefing` 将失效.
+
+- 类型: `boolean`
+- 默认值: `false`
+- 参考选项: `true`, `false`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 村民耕作 (mobGriefingFarmerVillagerShouldRun)
 
@@ -43,7 +64,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 凋零爆炸控制 (mobGriefingWitherCreateExplosion)
 
@@ -52,7 +73,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 凋零方块破坏控制 (mobGriefingWitherCanDestroy)
 
@@ -63,7 +84,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 末影龙方块破坏控制 (mobGriefingEnderDragonDestroyBlocks)
 
@@ -72,7 +93,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 苦力怕爆炸控制 (mobGriefingEnderDragonDestroyBlocks)
 
@@ -81,7 +102,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 末影人拾取方块控制 (mobGriefingEnderManPickUpBlock)
 
@@ -90,7 +111,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 末影人放置方块控制 (mobGriefingEnderManPlaceBlock)
 
@@ -99,7 +120,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 唤魔者的魔法 (mobGriefingEvokerWololo)
 
@@ -108,7 +129,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 猪灵拾取 (mobGriefingPiglinGather)
 
@@ -117,7 +138,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 劫掠兽破坏 (mobGriefingRavagerBreakBlocks)
 
@@ -126,7 +147,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 蠹虫感染 (mobGriefingSilverfishInfectStones)
 
@@ -135,7 +156,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 蠹虫破壳 (mobGriefingSilverfishOutOfBlocks)
 
@@ -144,7 +165,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 狐狸摘浆果 (mobGriefingFoxEatSweetBerries)
 
@@ -153,7 +174,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 兔子吃胡萝卜 (mobGriefingRabbitEatCarrotCrop)
 
@@ -162,7 +183,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 雪傀儡产雪 (mobGriefingSnowGolemSpawnSnow)
 
@@ -171,7 +192,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 火球爆炸 (mobGriefingFireballCreateExplosion)
 
@@ -180,7 +201,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 小火球引燃 (mobGriefingFireballCreateExplosion)
 
@@ -189,7 +210,7 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`
 
 ### 凋零之首爆炸 (mobGriefingWitherSkullCreateExplosion)
 
@@ -198,4 +219,4 @@
 - 类型: `boolean`
 - 默认值: `true`
 - 参考选项: `true`, `false`
-- 分类: `PRS`, `mobGriefing` `FEATURE`
+- 分类: `PRS`, `MOBGRIEFING`

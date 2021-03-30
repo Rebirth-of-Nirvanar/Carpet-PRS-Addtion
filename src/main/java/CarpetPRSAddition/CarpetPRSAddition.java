@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class CarpetPRSAddition implements CarpetExtension
 {
-    public static final String version = "1.0.0";
+    public static final String version = "1.0.1-dev";
     public static void noop() { }
     private static SettingsManager mySettingManager;
     static

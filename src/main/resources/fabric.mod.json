@@ -2,7 +2,7 @@
   "accessWidener" : "CarpetPRSAddition.accesswidener",
   "schemaVersion": 1,
   "id": "carpet-prs-addition",
-  "version": "1.0.0",
+  "version": "1.0.1-dev",
 
   "name": "CarpetPRSAddition",
   "description": "CarpetPRSAddition",

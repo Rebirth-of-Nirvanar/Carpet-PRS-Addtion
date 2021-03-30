@@ -1,6 +1,10 @@
 {
-  "category.PRS": "涅槃附属",
+  "category.entityTicking": "实体运算",
   "category.mobGriefing": "生物破坏",
+  "category.PRS": "涅槃附属",
+
+  "rule.disableWitherTicking.name": "凋零运算",
+  "rule.disableWitherTicking.desc": "禁止凋零实体运算来避免卡顿, 可能对伪和平有帮助.",
 
   "rule.mobGriefingOverride.name": "生物破坏覆写",
   "rule.mobGriefingOverride.desc": "当启用此选项游戏规则 mobgriefing 将失效.",

@@ -21,7 +21,8 @@
     "net.minecraft.entity.passive.SnowGolemEntityMixin",
     "net.minecraft.entity.projectile.FireballEntityMixin",
     "net.minecraft.entity.projectile.SmallFireballEntityMixin",
-    "net.minecraft.entity.projectile.WitherSkullEntityMixin"
+    "net.minecraft.entity.projectile.WitherSkullEntityMixin",
+    "net.minecraft.world.WorldMixin"
   ],
   "client": [
   ],
